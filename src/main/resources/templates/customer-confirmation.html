@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Student confirmed: <SPAN th:text="${customer.firstName}+' '+${customer.lastName}" />
+<br><br>
+Free passes: <SPAN th:text="${customer.freePasses}" />
+<br><br>
+Postal code: <SPAN th:text="${customer.postalCode}" />
+<br><br>
+Course code: <SPAN th:text="${customer.courseCode}" />
+</body>
+</html>
